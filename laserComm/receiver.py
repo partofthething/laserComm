@@ -79,7 +79,7 @@ class Receiver(object):
         # receive for 10 seconds
         print('Receiving')
         start = time.time()
-        while time.time() - start < 25.0:
+        while time.time() - start < 30.0:
             self.vals.append(adc.read(0))
             time.sleep(GAP / 10)
 

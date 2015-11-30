@@ -4,3 +4,6 @@
 *~
 *.png
 *.fzz
+laserComm photos
+laserComm/tests/adc1.txt
+laserComm/tests/rap.txt
